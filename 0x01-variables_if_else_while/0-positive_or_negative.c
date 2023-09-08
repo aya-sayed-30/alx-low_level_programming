@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - entry point */
+/**
+ *  main - entry point
+ *  Return: Always 0 (Success) 
+ */
 
-int main(void) {
+int main(void) 
+{
     int n;
     
     /* Seed the random number generator */
@@ -14,18 +18,11 @@ int main(void) {
 
     /* Check if the number is positive, negative, or zero */
     if (n > 0) 
-    {
         printf("%d is positive\n", n);
-    } 
     else if (n < 0) 
-    {
         printf("%d is negative\n", n);
-    } 
-    else 
-    {
+    else
         printf("%d is zero\n", n);
-    }
-
     return (0);
 }
 

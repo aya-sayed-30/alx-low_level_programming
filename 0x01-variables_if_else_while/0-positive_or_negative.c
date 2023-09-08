@@ -13,11 +13,11 @@ int main(void) {
 
     /* Check if the number is positive, negative, or zero */
     if (n > 0) {
-        printf("is positive");
+        printf("%d is positive\n", n);
     } else if (n < 0) {
-        printf("is negative");
+        printf("%d is negative\n", n);
     } else {
-        printf("is zero");
+        printf("%d is zero\n", n);
     }
 
     printf("\n");

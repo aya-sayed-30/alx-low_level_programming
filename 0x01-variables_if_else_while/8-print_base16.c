@@ -3,7 +3,6 @@
  *  main - Entry point
  *  Return: Always 0 (Success)
  */
-
 int main(void)
 {
 int i;
@@ -14,7 +13,7 @@ putchar(i + '0');
 }
 for (c = 'a'; c <= 'z'; c++)
 {
-putchar(n);
+putchar(c);
 }
 putchar('\n');
 return (0);

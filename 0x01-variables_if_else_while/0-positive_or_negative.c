@@ -9,11 +9,8 @@
 int main(void) 
 {
 int n; 
-/* Seed the random number generator */
 srand(time(0));
-/* Generate a random number */
 n = rand() - RAND_MAX / 2;
-/* Check if the number is positive, negative, or zero */
 if (n > 0) 
 {    
 printf("%d is positive\n", n);

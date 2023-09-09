@@ -1,1 +1,1 @@
-print-base16
+print comb

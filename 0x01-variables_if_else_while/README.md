@@ -1,1 +1,1 @@
-print comb4
+print 102-comb5

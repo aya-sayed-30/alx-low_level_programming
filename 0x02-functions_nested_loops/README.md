@@ -1,1 +1,1 @@
-2-islower
+isalpha

@@ -1,1 +1,1 @@
-6-abs
+7-print last digit

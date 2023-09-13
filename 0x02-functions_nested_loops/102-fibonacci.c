@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - main block
  * Description: Print the first 50 fibonacci numbers, starting with 1 and 2.
@@ -9,24 +8,24 @@
 int main(void)
 {
 	int count = 2;
-	long int i = 1, j = 2;
-	long int k;
+	long int i = 1, m = 2;
+	long int b;
 
 	printf("%lu, ", i);
 	while (count <= 50)
 	{
 		if (count == 50)
 		{
-			printf("%lu\n", j);
+			printf("%lu\n", m);
 		}
 		else
 		{
-			printf("%lu, ", j);
+			printf("%lu, ", m);
 		}
 
-		k = j;
-		j += i;
-		i = k;
+		b = m;
+		m += i;
+		i = b;
 		count++;
 	}
 

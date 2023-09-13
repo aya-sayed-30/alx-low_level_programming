@@ -13,12 +13,12 @@ for (m = 1; m <= 9; m++)
 {
 _putchar(',');
 _putchar(' ');
-p = n * m;
-if (p <= 9)
+d = n * m;
+if (d <= 9)
 _putchar(' ');
 else
-_putchar((p / 10) + '0');
-_putchar((p % 10) + '0');
+_putchar((d / 10) + '0');
+_putchar((d % 10) + '0');
 }
 _putchar('\n')
 }

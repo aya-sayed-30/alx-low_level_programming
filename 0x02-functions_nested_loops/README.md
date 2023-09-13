@@ -1,1 +1,1 @@
-7-print last digit
+8-24_hour

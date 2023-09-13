@@ -1,1 +1,1 @@
-8-24_hour
+print time-tables

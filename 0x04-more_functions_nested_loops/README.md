@@ -1,1 +1,1 @@
-readme
+7=print_diagonal

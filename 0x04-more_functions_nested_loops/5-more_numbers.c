@@ -2,13 +2,13 @@
 /**
 *more_numbers- prints the numbers, from 0 to 14, 10 times
 *
-*Return: from 0 to 14 10 times, followed by a new line.
+*Return: from 0 to 14 - 10 times, followed by a new line.
 **/
 void more_numbers(void)
 {
-int l, c;
+int i, c;
 
-	for (l = 0; l < 10; l++)
+	for (i = 0; i < 10; i++)
 	{
 		for (c = 0; c <= 14; c++)
 		{

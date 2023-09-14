@@ -1,1 +1,1 @@
-2-multiply 2 integers
+update readme for task2

@@ -1,1 +1,1 @@
-update readme for task2
+print numbers

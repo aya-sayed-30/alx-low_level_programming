@@ -3,6 +3,7 @@
 /**
 * _strlen - returns the length of a string.
 * @s: a pointer to a char
+* Return: length of a string
 **/
 
 int _strlen(char *s)
@@ -20,6 +21,7 @@ int _strlen(char *s)
 /**
 * puts2 - prints one char out of 2 of a string
 * @str: a pointer to string
+* Return: nothing
 **/
 
 void puts2(char *str)

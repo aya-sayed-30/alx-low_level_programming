@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _pow_recursion - raises x to the power of y
- * @x: Number Integer
- * @y: Power
+ * _pow_recursion - raises a to the power of b
+ * @a: Number Integer
+ * @b: Power
  * Return: On success 1.
  * On error, -1 is returned.
  */

@@ -25,3 +25,5 @@ char *_strdup(char *str)
 	for (j = 0; j <= i; j++)
 		strout[j] = str[j];
 
+	return (strout);
+}
